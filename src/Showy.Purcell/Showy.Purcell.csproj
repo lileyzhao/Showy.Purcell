@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.1;net6.0;net8.0</TargetFrameworks>
+        <LangVersion>latest</LangVersion>
+        <VersionPrefix>0.0.0</VersionPrefix>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <Title>Purcell</Title>
+        <Description>一个超高性能的Excel强类型读写映射库。（支持.xls .xlsx .csv）</Description>
+        <PackageTags>excel;xls;xlsx;xlsb;csv</PackageTags>
+        <PackageId>Showy.Purcell</PackageId>
+        <Authors>LileyZhao</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="LargeXlsx" Version="1.9.1" />
+        <PackageReference Include="Sylvan.Data.Csv" Version="1.3.8" />
+        <PackageReference Include="Sylvan.Data.Excel" Version="0.4.23" />
+        <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
+    </ItemGroup>
+
+</Project>
